@@ -1,0 +1,38 @@
+body
+{
+    background-color: darkgrey;
+}
+h1 
+{
+    font-family: cursive;
+    font-style: oblique;
+    font-size: larger;
+    font-weight: 200;
+}
+p
+{
+    font-family: cursive;
+    font-style: oblique;
+    font-size: larger;
+    font-weight: 200;
+    border-block-start-style: solid;
+}
+form
+{
+    font-family: cursive;
+    font-style: oblique;
+}
+button
+{
+    font-family: cursive;
+    font-style: oblique;
+    font-size: larger;
+    font-weight: 200;
+}
+audio
+{
+    font-family: cursive;
+    font-style: oblique;
+    font-size: larger;
+    font-weight: 200;
+}

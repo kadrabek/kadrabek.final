@@ -1,0 +1,54 @@
+<!--Kristen Drabek-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--the script tag I used links my javascript file to my html file-->
+    <script src = "strings2.js"></script>
+    <title>Login</title>
+</head>
+<!--the link tag will let me link my css file to my html file-->
+<link rel="stylesheet" href="final.css">
+     <!--this is my navigation-->
+<body>
+    <h2> Menu </h2>
+<nav>
+    <h2>
+    <a href="./index.html"> Home </a><br>
+    <a href="./boards.html"> Boards </a><br>
+    <a href="./strings.html"> Palindrome Checker </a><br>
+    <a href="./strings3-2.html"> Validation Page </a><br>
+    <a href="./table.html"> Table </a><br>
+    <a href="./game.html"> Game </a><br>
+
+   </h2>
+</nav> 
+<!--this is my header-->
+    <header> <h1> Login Page </h1> </header>
+    <!--I centered my login page-->
+   <p>In order to get into the Lab you must provide the essentials listed below. This will verify that you are an employee with the Lab.</p>
+    <!--the paragraph tag has a login status id tag in its so the javascript can change the status of login to whatever I want when I want it to happen-->
+    <p id = "loginStatus"> Status of Login </p>
+    <!--the form is there to create a form on my website-->
+    <form id = "credSubmit" onsubmit = "return false">
+        first name :    <input type = "text" id = "fname"/>
+        <br>
+        last name :     <input type = "text" id = "lname"/>
+        <br>
+        zip code :      <input type = "number" id = "zipNum"/>
+        <!--this input tag lets the submit button appear and when it is clicked the javascript will run-->
+        <input type = "submit" onclick = "checkInput();"/>
+    </form>
+    </p> 
+    <br>
+    <br>
+    <a href="./final.html"> Landing </a> <br>
+    <footer>
+    Kristen Drabek <br>
+    University of Advancing Technology <br>
+    2625 W. Baseline Road <br>
+    Tempe, AZ 85283-1056 <br>
+</footer>
+</body>
+</html>

@@ -1,0 +1,40 @@
+table
+{
+    border: 7px;
+    border-style: ridge;
+    border-color: black;
+}
+th
+{
+    border: 7px;
+    border-style: ridge;
+    column-gap: 7px;
+    border-color: black;
+}
+td
+{
+    border: 7px;
+    border-style: ridge;
+    column-gap: 7px;
+    border-color: black;
+}
+body
+{
+    background-color: lightcoral;
+    font-family: cursive;
+}
+h2
+{
+    border-style: ridge;
+    border-color: black;
+}
+header
+{
+    border-style: ridge;
+    border-color: black;
+}
+footer 
+{
+    border-style: ridge;
+    border-color: black;
+}

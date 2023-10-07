@@ -1,0 +1,76 @@
+<!-- This doctype tag allows the software to understand that the code that we are using is for an HTML document. -->
+<!DOCTYPE html>
+
+<!-- lets the HTML document know that the language is in english. -->
+<html lang="en">
+
+<!-- This head tag allows the software to know that we are ready to start coding. This focuses on the website setup specifically like the title and the contents width and scale across mutliple platforms of viewers. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- this script tag allows us to tell the HTML software that we want to incorportate javascript into our website page and allows it to be connected. -->
+    <script src="game.gs.js"> </script>
+
+    <!-- This title tag is what you will see in the tab bar. you can personalize it to be more creative and welcoming. -->
+    <title> Escape the Maze </title>
+
+<!-- the /head tag lets us know that the header is done and everything is ready to go. -->
+</head>
+
+<!-- this link tag will let us link the css sheet that I want to use to the html doc. Now the edits I make in the css document will show up in this document. -->
+<link rel="stylesheet" href="final.css">
+
+<!-- the body tag is where the meat of the code will go. things like the paragraphs and the headings which are some of the first things you will see on the website itself.  -->
+<body>
+    <!--this is my navigation-->
+    <h2> Menu </h2>
+    <nav>
+        <h2>
+        <a href="./index.html"> Home </a><br>
+        <a href="./boards.html"> Boards </a><br>
+        <a href="./strings.html"> Palindrome Checker </a><br>
+        <a href="./strings3-2.html"> Validation Page </a><br>
+        <a href="./table.html"> Table </a><br>
+        <a href="./game.html"> Game </a><br>
+    
+       </h2>
+    </nav> 
+<!-- the center tag shows that I want this text to be centered on the website. -->
+<center>
+<!--this is my header-->
+<!-- The h2 tag is set to be the title of the main page. It is the first text to be seen at the top of the page and has been modified to be more my style using the style tag and the font-family tag. This allows me to set up a different feel for my users. -->
+<header> <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Escape the Maze </h1>  </header>  
+</center>
+
+    <!-- The br tag allows for there to be a space in between my h2 tag and my p tag allowing for an easier reading experience from the user. -->
+    <br>
+
+    <!-- This is my p tag where I simply described the rules of the game. It is the only other text on the website and is the most important. -->
+    <p> The game is simple. Click the button and whatever number it lands on will give you a space on the map. Try to escape the map by moving however many spaces you land on. Keep rolling until you win! </p>
+    <br>
+
+    <!-- This button tag allows for there to be a button present on the screen. The onclick feature allows for there to be a function to be added which was funcalert. This allows an alert to be sent once you click the button. It will not work without linking the javaScript to our HTML document so I did that in an earlier set of code. -->
+    <button onclick="funcAlert()"> press me </button>
+    <br>
+    <br>
+<center>
+
+    <!-- lets the HTML document know that I want a picture added to my website. -->
+    <img id="memeImage" src="OIP (1).jpg">
+</center>
+<br>
+<br>
+<a href="./final.html"> Landing </a><br>
+<!-- this /body tag allows the computer to know that the body of the website is done and ready to be shown to the public eye. -->
+<!--my footer-->
+<footer>
+    Kristen Drabek <br>
+    University of Advancing Technology <br>
+    2625 W. Baseline Road <br>
+    Tempe, AZ 85283-1056 <br>
+</footer>
+</body>
+
+<!-- This /html tag allows the software to understand that we are done with writing code and the website is complete and ready to be opened. -->
+</html>

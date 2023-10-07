@@ -1,0 +1,51 @@
+<!--Kristen Drabek-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--the script tag lets me link my javascript to my html-->
+    <script src = "string.js"></script>
+    <title>Palindrome Checker</title>
+</head>
+<!--I liked my css to my html to allow it look nicer-->
+<link rel="stylesheet" href="final.css">
+<body>
+         <!--this is my navigation-->
+    <h2> Menu </h2>
+<nav>
+    <h2>
+    <a href="./index.html"> Home </a><br>
+    <a href="./boards.html"> Boards </a><br>
+    <a href="./strings.html"> Palindrome Checker </a><br>
+    <a href="./strings3-2.html"> Validation Page </a><br>
+    <a href="./table.html"> Table </a><br>
+    <a href="./game.html"> Game </a><br>
+
+   </h2>
+</nav> 
+<!--this is my header-->
+    <header> <h1> Palindrome Checker </h1> </header>
+    <p>
+<!--this is the rules to the palindrome checker-->
+        Put a word that is spelt the same backwards.
+    <!--the form tag lets me put in a submission to my page.--> 
+    <form id = "str" onsubmit = "return false">
+        <br>
+    <!--the input type is important cause without it the website will not work-->
+        word: <input type = "text" id = "initString"/>
+    <!--this input type allows the submit button to appear and with it the javascript to be run.-->
+        <input type = "submit" onclick = "strings();"/>
+    </form>
+    </p> 
+    <br>
+    <br>
+    <a href="./final.html"> Landing </a><br>
+    <footer>
+    Kristen Drabek <br>
+    University of Advancing Technology <br>
+    2625 W. Baseline Road <br>
+    Tempe, AZ 85283-1056 <br>
+</footer>
+</body>
+</html>

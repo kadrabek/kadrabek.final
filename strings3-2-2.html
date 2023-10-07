@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Lab</title>
+    <script src = "strings2.js"></script>
+</head>
+<!--I wanted to link the same style sheet I used on my first page to this one-->
+<link rel="stylesheet" href="string.css">
+<body>
+    <!--this is my description that I want shown on my page to my user. I have a header and a paragraph tag-->
+   <center><h1> Welcome to the Lab!!</h1></center> 
+   <center> <p> You've made it to the lab. This is where we research different topics to ultimately lead a better world. Have a look around!! If you click on the button you can hear what's going on in the lab at this very moment. With our advanced technology we can also mute or "stop" the sound whenever we like. That way we can talk to one another without any interuptions while they work. </p> </center>
+   <!--these are my buttons to play my sounds that I wanted added to my website-->
+   <button onclick = "PlayLab();">start</button>
+   <button onclick = "StopLab();">stop</button>
+        <br>
+        <br>
+<!--this is my picture that I added to my website-->
+<img src = "labs.jpg" id = "imgLab";/>
+<br>
+<br>
+<br>
+<br>
+<p>Looking down here you can also control the volume of the room in front of you by using the controls down below. This is peak science and we hope to look into this topic more as we go on.</p>
+    <!--these are my audio controls that allow the user to manipulate the audio being given to them-->
+<audio controls>
+    <source src = "us-lab-background-1.mp3" type = "audio/mpeg"></source>
+    </audio>
+</body>
+</html>
